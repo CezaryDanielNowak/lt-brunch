@@ -1,0 +1,19 @@
+{
+  "name": "lt-brunch",
+  "version": "0.3.3",
+  "description": "Adds LT (Little Template) support to brunch.",
+  "author": "Cezary Nowak",
+  "homepage": "https://github.com/korpirkor/lt-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:korpirkor/lt-brunch.git"
+  },
+  "main": "./lib/index",
+  "dependencies": {
+    "lt": "0.3.3",
+    "umd-wrapper": "~0.1.0"
+  },
+  "scripts": {
+    "prepublish": "rm -rf lib && coffee --bare --output lib/ src/"
+  },
+}
