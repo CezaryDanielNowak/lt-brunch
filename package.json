@@ -15,6 +15,6 @@
   },
   "scripts": {
     "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
-    "postinstall": "node setup.js postinstall",
+    "postinstall": "node setup.js postinstall"
   }
 }
